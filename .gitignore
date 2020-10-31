@@ -1,7 +1,22 @@
+# Jekyll
 _site
-.sass-cache
+*-cache/
 .jekyll-metadata
-.DS_store
+
+# Ruby
+.bundle/
 .ruby-version
+*.gem
 Gemfile.lock
+
+# Files
+.analysis
+.DS_Store
+*.swp
+*~
+
+# Folders
+/vendor
+bbin/
+tmp/*
 .tweet-cache/
