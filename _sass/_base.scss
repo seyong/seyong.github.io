@@ -1,7 +1,26 @@
 /*******************************************************************************
  * Styles for the base elements of the theme.
  ******************************************************************************/
+/*---------------------
+ * Google Fonts
+ ----------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;700&display=swap');
 
+
+/*---------------
+ Header
+ ---------------*/
+.post-header {
+  font-family: Arimo, sans-serif;
+  font-weight: 700;
+}
+
+.left-line {
+  border-left: thick solid $hcid-color;
+  border-width: 3px;
+  padding-left: 10px;
+  text-align: left
+}
 // Typography
 
 a, table.table a {
@@ -148,7 +167,9 @@ a, table.table a {
   }
 }
 
-
+.padding-15px-left {
+  padding-left: 15px;
+}
 // News
 
 .news table td {
@@ -157,6 +178,7 @@ a, table.table a {
 }
 
 .news table th {
+  max-width: 100px;
   color: var(--global-text-color);
 }
 

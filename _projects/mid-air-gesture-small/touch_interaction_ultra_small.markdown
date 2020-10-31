@@ -1,9 +1,9 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image
-img: /assets/img/3.jpg
-importance: 2
+title: Mid-air gesutre on ultra-small screen
+description: Performance Comparison with Touch Interaction
+img: /assets/img/12.jpg
+importance: 1
 ---
 
 Every project has a beautiful feature showcase page.

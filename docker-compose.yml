@@ -1,0 +1,21 @@
+#====
+# Docker-compose file
+# Created by Seyong Ha at Oct. 26, 2020.
+#====
+
+version: "3.8"
+
+services:
+    dev:
+        image: jekyll/jekyll:3
+        build:
+            context: .
+            target: jekyll_stable
+        container_name: "jekyll_dev"
+        command: > 
+            bash -c "bundle install && jekyll serve --livereload --verbose --force_polling"
+        ports:
+            - 4000:4000
+        volumes:
+            - .:/srv/jekyll
+            - ./vendor/bundle:/usr/local/bundle

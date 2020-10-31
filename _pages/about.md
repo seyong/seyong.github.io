@@ -1,12 +1,11 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 description: <a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
-
 profile:
   align: right
-  image: prof_pic.jpg
+  image: profile_2013.jpg
   address: >
     <p>555 your office number</p>
     <p>123 your address street</p>

@@ -32,9 +32,13 @@ layout: default
       {% include news.html %}
     {% endif %}
 
+
+    
+    {% comment %}
     {% if page.selected_papers %}
       {% include selected_papers.html %}
     {% endif %}
+    {% endcomment %}
 
     {% if page.social %}
     <div class="social">
