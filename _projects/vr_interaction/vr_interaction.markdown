@@ -1,9 +1,9 @@
 ---
 layout: page
-title: project two
-description: a project with a background image
-img: /assets/img/3.jpg
-importance: 2
+title: Exploration of User Interaction in Virtual Reality
+description: Prototyping a set of user interaction in VR
+img:
+importance: 1
 ---
 
 Every project has a beautiful feature showcase page.

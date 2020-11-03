@@ -1,9 +1,10 @@
 ---
 layout: page
-title: project six
-description: a project with no image
-img:
-importance: 4
+title: Sketch + Interactive Prototyping
+description: Interactive Prototyping with mobile device via sketching.
+img: /assets/img/7.jpg
+redirect: https://unsplash.com
+importance: 3
 ---
 
 Every project has a beautiful feature showcase page.

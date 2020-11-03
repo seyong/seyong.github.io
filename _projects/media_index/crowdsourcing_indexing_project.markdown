@@ -1,10 +1,9 @@
 ---
 layout: page
-title: project three
-description: a project that redirects to another website
-img: /assets/img/7.jpg
-redirect: https://unsplash.com
-importance: 3
+title: Generating Media Index in Sports
+description: Generating media index through crowdsourcing method.
+img: /projects/media_index/main_figure.png
+importance: 4
 ---
 
 Every project has a beautiful feature showcase page.

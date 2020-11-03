@@ -1,9 +1,9 @@
 ---
 layout: page
-title: project one
+title: Issue Network
 description: a project with a background image
-img: /assets/img/12.jpg
-importance: 1
+img: /projects/issue_network/main_figure.png
+importance: 5
 ---
 
 Every project has a beautiful feature showcase page.

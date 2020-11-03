@@ -1,9 +1,10 @@
 ---
 layout: page
-title: Mid-air gesutre on ultra-small screen
-description: Performance Comparison with Touch Interaction
-img: /assets/img/12.jpg
-importance: 1
+title: Interaction Technique Evaluation
+description: Performance comparision of mid-air gesture with touch for target acquisitions on wearable devices.
+img: /projects/mid-air-gesture-small/main_figure.png
+importance: 3
+path: 'mid-air-gesture-small'
 ---
 
 Every project has a beautiful feature showcase page.

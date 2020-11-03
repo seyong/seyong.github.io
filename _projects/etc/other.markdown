@@ -1,9 +1,9 @@
 ---
 layout: page
-title: project four
-description: another without an image
-img:
-importance: 3
+title: Other Work
+description: Works done in my under-grad.
+img: /assets/img/1.jpg
+importance: 7
 ---
 
 Every project has a beautiful feature showcase page.
