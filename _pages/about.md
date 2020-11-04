@@ -3,19 +3,21 @@ layout: about
 title: About
 permalink: /
 description: <a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
+intro: Hi, I'm Seyong Ha !
 profile:
   align: right
   image: profile_2013.jpg
   address: >
     <p>Toronto, ON Canada</p>
-    
+    <p>Somewhere downtown Toronto</p>
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com){:target="\_blank"}. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+##### Interaction Designer + UX Researcher
+I strive to design user interactions/interfaces that both inspiring future and performant/accesible to the end user. I approached to this by qualitative and quantitave HCI methods. I studied Human-Computer Interaction at [Dynamic Graphics Project lab](http://www.dgp.toronto.edu), University of Toronto, and recently achieve Master's degree in Computer Science. 
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+**I am open to both Software engineer and UX researcer positions.**
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/){:target="\_blank"} and [Academicons](https://jpswalsh.github.io/academicons/){:target="\_blank"}, like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Before joinig [DGP](http://www.dgp.toronto.edu) at UofT, I studied HCI at [Human-Computer Interaction + Design lab](http://hcid.snu.ac.kr) at Seoul National University, South Korea.
