@@ -42,6 +42,13 @@
             </a>
           </li>
           {% endif %}
+          {% if site.cv %}
+          <li class="nav-item">
+            <a class="nav-link" href="{{ site.cv | prepend: '/assets/pdf/' | relative_url}}">
+              CV
+            </a>
+          </li>
+          {% endif %}
           <!-- Other pages -->
           {% assign sorted_pages = site.pages | %}
           {% for p in sorted_pages %}

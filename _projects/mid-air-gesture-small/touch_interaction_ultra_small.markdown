@@ -5,45 +5,49 @@ description: Performance comparision of mid-air gesture with touch for target ac
 img: /projects/mid-air-gesture-small/main_figure.png
 importance: 3
 path: 'mid-air-gesture-small'
+visible: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+Mid-air finger motion takes advantage of the vast free 3D space around a device for input. Although previous research has compared mid-air finger motion with touch for mobile and large interactive surfaces, little is known about their performance for small target acquisition on ultra-small screen devices. In this project, we empirically study the performance of mid-air finger motion and touch as input techniques for small target acquisition on smartwatches with 16 participants. Results show that mid-air finger motion can be as fast as touch but has significantly fewer errors. No statistically significant difference has been found in either mental or physical demand while using two techniques, but mid-air finger motion technique is perceived to have better performance with less frustration compared with touch.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+{% assign pdf_url='/assets/pdf/fan2017comparing.pdf' | relative_url%}
+##### Conclusion
+The performance of mid-air finger motion was empirically studied as input technique for small target acquisition on ultra small touch screen. 
+The results show that mid-air finger motion can be as fast as touch yet cause fewer errors. No statistically significant difference is found in mental or physical demanding while using two techniques. Mid-air finger motion has a higher perceived performance and less perceived frustration than touch. Read a paper for more <a href="pdf_url">details</a>.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/1.jpg' | relative_url }}" alt="" title="example image"/>
+        {% reference fan2017comparing %}
+    </div>
+      [<a href="{{pdf_url}}">PDF</a>]
+</div>
+<br/>
+##### Figures
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="{{ '/projects/mid-air-gesture-small/main_figure.png' | relative_url }}" alt="" title="example image"/>
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/3.jpg' | relative_url }}" alt="" title="example image"/>
+        <img class="img-fluid rounded z-depth-1" src="{{ '/projects/mid-air-gesture-small/fig1.png' | relative_url }}" alt="" title="example image"/>
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/5.jpg' | relative_url }}" alt="" title="example image"/>
+        <img class="img-fluid rounded z-depth-1" src="{{ '/projects/mid-air-gesture-small/fig2.png'| relative_url }}" alt="" title="example image"/>
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    Left: Vicon Tracking setup on a finger and a mobile device. Other: Experiment Screentshots.
 </div>
-<div class="row">
+
+<!-- <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/5.jpg' | relative_url }}" alt="" title="example image"/>
     </div>
 </div>
 <div class="caption">
     This image can also have a caption. It's like magic.
-</div>
+</div> -->
 
-You can also put regular text between your rows of images.
+<!-- You can also put regular text between your rows of images.
 Say you wanted to write a little bit about your project before you posted the rest of the images.
 You describe how you toiled, sweated, *bled* for your project, and then... you reveal it's glory in the next row of images.
 
@@ -75,4 +79,4 @@ Here's the code for the last row of images above:
         <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/11.jpg' | relative_url }}" alt="" title="example image"/>
     </div>
 </div>
-```
+``` -->

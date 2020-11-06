@@ -4,6 +4,7 @@ title: Exploration of User Interaction in Virtual Reality
 description: Prototyping a set of user interaction in VR
 img:
 importance: 1
+visible: false
 ---
 
 Every project has a beautiful feature showcase page.

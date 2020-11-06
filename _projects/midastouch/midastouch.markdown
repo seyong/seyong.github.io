@@ -4,6 +4,7 @@ title: Beating Midas Touch problem in large display.
 description: 
 img:
 importance: 2
+visible: false
 ---
 
 Every project has a beautiful feature showcase page.

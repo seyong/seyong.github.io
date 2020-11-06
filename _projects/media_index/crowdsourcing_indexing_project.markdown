@@ -1,25 +1,30 @@
 ---
 layout: page
-title: Generating Media Index in Sports
-description: Generating media index through crowdsourcing method.
+title: Extraction of Highlights and Search Indexes of Digital Media
+description: Generating media index by analyzing Online Activity Data
 img: /projects/media_index/main_figure.png
 importance: 4
+visible: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+With the spread of social media and mobile devices, people spend more time on online than ever before.
+As more people participate in various online activities, much research has been conducted on how to
+make use of the time effectively and productively. In this paper, we propose two methods which can
+be used to extract highlights and make searchable media indexes using online social data. For highlight
+extraction, we collected the comments from the online baseball broadcasting website. We adopted
+peak-finding algorithm to analyze the frequency of comments uploaded on the comments section of the
+website. For each indexes, we collected postings from soap opera forums provided by a popular web
+service called DCInside. We extracted all the instances when a character’s name is mentioned in postings
+users upload after watching TV, which can be used to create indexes when the character appears on
+screen for the given episode of the soap opera The evaluation results shows the possibility of the
+crowdsourcing-based media interaction for both highlight extraction and index building.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+<!-- With the spread of social media and mobile devices, people have an opportunity to watch sports or video while presenting their opinions online, and they started to communicating with other viewers inline with the scene they are watching. The opinions people posting online while watching media are likely to be relevant to the media viewers watching and it is considered to have information of the content broadcasting.
 
-<div class="row">
+In this project, we've explored the possibility of online activity data as a source of a highlight extraction and a searchable media index generation. W -->
+
+<!-- <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/1.jpg' | relative_url }}" alt="" title="example image"/>
     </div>
@@ -74,4 +79,4 @@ Here's the code for the last row of images above:
         <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/11.jpg' | relative_url }}" alt="" title="example image"/>
     </div>
 </div>
-```
+``` -->

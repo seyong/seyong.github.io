@@ -4,6 +4,7 @@ title: Other Work
 description: Works done in my under-grad.
 img: /assets/img/1.jpg
 importance: 7
+visible: false
 ---
 
 Every project has a beautiful feature showcase page.
