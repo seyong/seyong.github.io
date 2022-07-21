@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    {% include head.html %}
+    {% include scripts/mathjax.html %}
+  </head>
+
+  <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
+
+    <!-- Content -->
+
+    <div class="container mt-5">
+      <div class="post">
+        <div class="annoucement">
+            <h1 class="soon">
+                The page is under construction!<br/>
+                Hit me via socials below.
+            </h1>
+        </div>
+        <div class="social">
+          {% include social.html %}
+          <div class="contact-note">{{ site.contact_note }}</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+
+    {% include footer.html %}
+
+  </body>
+
+  {% include scripts/jquery.html %}
+  {% include scripts/bootstrap.html %}
+  {% include scripts/mansory.html %}
+  {% include scripts/misc.html %}
+
+</html>
